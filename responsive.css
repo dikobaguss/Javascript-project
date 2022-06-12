@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    .footer p {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .box-title {
+        width: 300px;
+    }
+
+    .glow {
+        font-size: 60px;
+    }
+}
