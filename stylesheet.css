@@ -1,0 +1,120 @@
+body {
+    background: url(https://wallpaperaccess.com/full/895528.jpg);
+}
+
+
+.box-title {
+    background-color: blue;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.glow {
+    font-family: 'Copperplate', fantasy;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.footer p {
+    background: wheat;
+    padding-top: 7px;
+    border-radius: 30px;
+    height: 50px;
+    
+}
+
+.footer a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.calculator{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.calculator-button {
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+button  {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: white;
+    width: 25%;
+    outline: none;
+}
+
+.zero-btn {
+    border-bottom-left-radius: 10px;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: orange;
+}
+
+.equal-sign {
+    border-bottom-right-radius: 10px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: darkorange;
+}
+
